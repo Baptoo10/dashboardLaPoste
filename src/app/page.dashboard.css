@@ -1,0 +1,18 @@
+.dashboardContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 0 0 20%; /* 20% de la largeur de l'écran */
+    background: #273A95;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    transform: rotate(90deg);
+}
+
+.mainContent {
+    flex: 1; /* Utilise tout l'espace restant */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
