@@ -9,7 +9,7 @@ const COUNTDOWN_DURATION = 15 * 60; // Durée du compte à rebours en secondes
 export default function dashboard() {
 
     //barVentesContent3 height
-    const dataVentes = 5;
+    const dataVentes = 7;
     let totaldataventes;
     let hauteurPourcentage;
 
@@ -225,13 +225,27 @@ export default function dashboard() {
 
                 <div className={styles.bottomBar}>
                     <div className={styles.bottomBarContainer}>
-                        <p className={styles.dateText}>04/06</p>
-                        <p className={styles.dateText}>04/06</p>
-                        <p className={styles.dateText}>04/06</p>
-                        <p className={styles.dateText}>04/06</p>
-                        <p className={styles.dateText}>04/06</p>
-                        <p className={styles.dateText}>04/06</p>
-                        <p className={styles.dateText}>04/06</p>
+                        <div className={styles.barVentesContent3} style={{ height: '1%' }}>
+                            <p className={styles.dateText}>04/06</p>
+                        </div>
+                        <div className={styles.barVentesContent3} style={{ height: '1%' }}>
+                            <p className={styles.dateText}>04/06</p>
+                        </div>
+                        <div className={styles.barVentesContent3} style={{ height: '1%' }}>
+                            <p className={styles.dateText}>04/06</p>
+                        </div>
+                        <div className={styles.barVentesContent3} style={{ height: '1%' }}>
+                            <p className={styles.dateText}>04/06</p>
+                        </div>
+                        <div className={styles.barVentesContent3} style={{ height: '1%' }}>
+                            <p className={styles.dateText}>04/06</p>
+                        </div>
+                        <div className={styles.barVentesContent3} style={{ height: '1%' }}>
+                            <p className={styles.dateText}>04/06</p>
+                        </div>
+                        <div className={styles.barVentesContent3} style={{ height: '1%' }}>
+                            <p className={styles.dateText}>04/06</p>
+                        </div>
                     </div>
                 </div>
 

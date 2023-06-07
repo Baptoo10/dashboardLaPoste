@@ -450,27 +450,30 @@
 }
 
 .barVentesContent3 {
+  position: relative; /* Ajout de la propriété */
+  display: flex; /* Ajout de la propriété */
+  align-items: center; /* Ajout de la propriété */
+  justify-content: center; /* Ajout de la propriété */
   flex-grow: 1;
   background: #FFFFFF;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px 15px 0px 0px;
   margin-right: 5%;
-  align-items: center;
-  justify-content: center;
 }
 
-.barVentesContentText3{
-  position: absolute;
+.barVentesContentText3 {
+  position: relative; /* Modification de la propriété */
   color: #273A95;
   font-family: 'CamptonBold';
   font-size: 100%;
-  transform: translateX(30%);
+  text-align: center;
 }
+
 
 .bottomBar {
   position: absolute;
   bottom: 5%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   margin-left: 5%;
   width: 65%;
   height: 1%;
@@ -489,7 +492,7 @@
   font-family: 'CamptonBold';
   color: #273A95;
   font-size: 12px;
-  width: 12%;
-  white-space: nowrap;
+  white-space: normal;
   text-overflow: ellipsis;
+  text-align: center;
 }
